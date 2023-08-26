@@ -1,0 +1,110 @@
+20.08.2023 17:17:18 : Coop System.ArgumentException: Parametr jest nieprawidłowy.
+   w System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 25
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 91
+20.08.2023 19:30:28 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 37
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
+20.08.2023 19:35:56 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
+20.08.2023 19:41:29 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
+20.08.2023 19:47:14 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
+20.08.2023 19:50:14 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
+20.08.2023 19:53:12 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
+26.08.2023 20:45:06 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
+26.08.2023 20:46:24 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
+26.08.2023 20:50:57 : Coop System.ComponentModel.Win32Exception (0x80004005): Nieprawidłowe dojście
+   w System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   w LeagueBot.Windows.ApplicationCapture.CaptureApplication(String procName) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Windows\ApplicationCapture.cs:wiersz 27
+   w LeagueBot.ApiHelpers.ScreenHelper.GetCapture() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 47
+   w LeagueBot.ApiHelpers.ScreenHelper.GetColorPosition(Color color) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\ApiHelpers\ImageHelper.cs:wiersz 53
+   w LeagueBot.Game.Entities.ActivePlayer.getNearTarget() w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 33
+   w LeagueBot.Game.Entities.ActivePlayer.tryCastSpellOnTarget(Int32 indice) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Game\Entities\ActivePlayer.cs:wiersz 56
+   w LeagueBot.Coop.CastAndMove()
+   w LeagueBot.Coop.GameLoop()
+   w LeagueBot.Coop.Execute()
+   w LeagueBot.Patterns.PatternsManager.Execute(String name) w C:\Users\mikis\Downloads\League-of-Legends-Bot-master\League-of-Legends-Bot-master\LeagueBot\Sources\LeagueBot\Patterns\PatternsManager.cs:wiersz 92
