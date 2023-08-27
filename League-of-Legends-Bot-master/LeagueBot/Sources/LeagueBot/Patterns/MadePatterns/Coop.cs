@@ -144,10 +144,13 @@ namespace LeagueBot
 
         private void GameLoop()
         {
+            //Checks level
             int level = game.player.getLevel();
 
+            //Dead state
             bool dead = false;
 
+            //Checks for recall
             bool isRecalling = false;
 
             while (bot.isProcessOpen(Constants.GameProcessName))
